@@ -1,0 +1,77 @@
+.slide-service_container {
+  margin-top: 3.87vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .image-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.65vw;
+    .imageslide {
+      width: 33.135vw;
+    }
+    img {
+      width: 4.7vw;
+    }
+    .dots {
+      text-align: center;
+    }
+  }
+  .info-slide {
+    h3 {
+      color: #152e3d;
+      font-family: Quicksand;
+      font-size: 1.45vw;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-bottom: 1.32vw;
+      margin-top: 0.727vw;
+      text-align: start;
+    }
+    .text-contact {
+      p {
+        width: 32.14vw;
+        color: #898989;
+        font-family: Quicksand;
+        font-size: 1.06vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.45vw; /* 137.5% */
+        text-transform: capitalize;
+      }
+      .whatsapp-button {
+        background-color: #3c8171;
+        border-radius: 0.5vw;
+        color: white;
+        font-size: 1.06vw;
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        align-items: center;
+        padding: 0.5vw 1.5vw;
+        margin-top: 2.97vw;
+        width: 17.06vw;
+        justify-content: center;
+        label {
+          text-align: center;
+        }
+        img {
+          width: 1.7vw;
+          vertical-align: middle;
+          padding-top: 0.6vw;
+          margin-left: 1.256vw;
+        }
+      }
+    }
+  }
+
+  .info-slide {
+    padding: 0 1.65vw;
+  }
+}

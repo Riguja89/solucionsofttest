@@ -1,0 +1,38 @@
+.our-clients_container {
+  margin-top: 87px;
+
+  h3 {
+    color: #152e3d;
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .clients-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 28px;
+    .clients-logo_image {
+      padding: 0 10px;
+      img {
+        width: 562px;
+        height: 94px;
+        flex-shrink: 0;
+      }
+    }
+  }
+  .separate {
+    display: flex;
+    justify-content: center;
+    .line {
+      width: 1089px;
+      height: 2px;
+      background: #58b59f;
+      text-align: center;
+    }
+  }
+}

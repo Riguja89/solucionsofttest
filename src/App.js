@@ -2,6 +2,9 @@ import "./App.scss";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import DesktopHeader from "./components/header/DesktopHeader";
+import OurServices from "./components/home/services/OurServices";
+import OurTeam from "./components/home/team/OurTeam";
+import OurClients from "./components/home/clients/OurClients";
 
 function App() {
   return (
@@ -11,7 +14,9 @@ function App() {
           element={
             <>
               <DesktopHeader />
-              {/* <Services /> */}
+              <OurServices />
+              <OurTeam/>
+              <OurClients/>
             </>
           } />
       </Routes>

@@ -1,0 +1,37 @@
+.team-description_container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2.05vw 0 0;
+  margin-left: -3.96vw;
+  .team-description_image {
+    img {
+      width: 25.179vw;
+      height:  25.179vw;
+      transform: rotate(22.34deg);
+      flex-shrink: 0;
+    }
+  }
+  .team-description_text {
+    margin-left: -3.97vw;
+    h3 {
+      margin-top: 4.56vw;
+      color: #92ffe6;
+      font-family: Quicksand;
+      font-size: 1.455vw;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    p {
+      margin-top: 1.25vw;
+      width: 17.195vw;
+      color: #fafafa;
+      font-family: Quicksand;
+      font-size: 1.06vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.455; /* 137.5% */
+    }
+  }
+}

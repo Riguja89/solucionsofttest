@@ -1,0 +1,28 @@
+.services-menu_container {
+  margin-top: 3.288vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .menu-item {
+    padding: 0 3.04vw 0.66vw;
+    border-bottom: solid 0.13vw #58B59F;
+    .menu-image {
+      height: 3.24vw;
+      align-items: center;
+      text-align: center;
+     
+    }
+    p {
+      color: rgba(114, 114, 114, 0.8);
+      font-family: Quicksand;
+      font-size: 1.19vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize;
+      text-align: center;
+      margin-top: 0.96vw;
+    }
+  }
+}
