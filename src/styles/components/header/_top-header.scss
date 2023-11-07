@@ -1,0 +1,53 @@
+.top-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    padding-top: 1.6vw;
+    margin-left: 12.16vw;
+    img {
+      width: 5vw;
+    }
+  }
+  .language-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 8.73vw;
+  }
+  .language-switch {
+    color: #fff;
+    button {
+      color: #fff;
+      font-family: Quicksand;
+      font-size: 0.992vw;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+      padding: 1vw;
+    }
+  }
+  .whatsapp-button {
+    background-color: #3c8171;
+    border-radius: 0.5vw;
+    color: white;
+    font-size: 1.06vw;
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    align-items: center;
+    padding: 0.5vw 1.5vw;
+    margin-left: 1.39vw;
+    img {
+      width: 1.7vw;
+      vertical-align: middle;
+      padding-top: 0.6vw;
+      margin-left: 1vw;
+    }
+  }
+}

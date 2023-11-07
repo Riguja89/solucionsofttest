@@ -1,0 +1,17 @@
+// abtracts
+
+@use './styles/abstracks/variables';
+@use './styles/abstracks/mixins';
+
+
+// base
+
+@use './styles/base/base';
+@use './styles/base/resets';
+
+// components
+
+@use './styles/components/header/desktop-header';
+@use './styles/components/header/top-header';
+@use './styles/components/header/navbar';
+@use './styles/components/header/slider';
