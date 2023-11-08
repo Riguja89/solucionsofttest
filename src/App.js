@@ -5,6 +5,8 @@ import DesktopHeader from "./components/header/DesktopHeader";
 import OurServices from "./components/home/services/OurServices";
 import OurTeam from "./components/home/team/OurTeam";
 import OurClients from "./components/home/clients/OurClients";
+import ContactUs from "./components/home/contact/ContactUs";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
               <OurServices />
               <OurTeam/>
               <OurClients/>
+              <ContactUs/>
+              <Footer/>
             </>
           } />
       </Routes>

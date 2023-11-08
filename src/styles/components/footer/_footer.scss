@@ -1,0 +1,57 @@
+.footer-container {
+  height: 12.434vw;
+  flex-shrink: 0;
+  background: #152e3d;
+  margin-top: -1.52vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h3 {
+    color: #fff;
+    font-family: Quicksand;
+    font-size: 0.96vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.58vw; /* 171.429% */
+    text-transform: capitalize;
+  }
+
+  p {
+    color: #58b59f;
+    font-family: Quicksand;
+    font-size: 0.96vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.59vw;
+    text-transform: capitalize;
+  }
+  .footer-logo {
+    margin-left: 11.31vw;
+    img {
+      width: 3.64vw;
+    }
+  }
+  .footer-ubication {
+    margin-left: 2.91vw;
+    width: 9.78vwpx;
+    height: 4.23vw;
+  }
+  .footer-emails {
+    margin-left: 2.18vw;
+    width: 14.68vw;
+    height: 4.23vw;
+  }
+  .footer-phones {
+    margin-left: 2.71vw;
+    width: 18.58vw;
+    height: 4.233vw;
+  }
+  .footer-whatsapp-logo {
+    margin-left: 17.4vw;
+    margin-top: -2.11vw;
+    img {
+      width: 4.63vw;
+    }
+  }
+}
