@@ -4,7 +4,7 @@ const SlideService = () => {
   return (
     <div className="slide-service_container">
       <div className="image-slide">
-        <div>
+        <div className="screens">
           <img
             className="imageslide"
             src="image01.png"

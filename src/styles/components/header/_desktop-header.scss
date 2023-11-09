@@ -1,4 +1,21 @@
 .desktop-header_container {
-    background: linear-gradient(180deg, #152E3D 16.67%, #3C8171 100%);
-    height: 40vw;
+  background: linear-gradient(180deg, #152e3d 16.67%, #3c8171 100%);
+  height: 40vw;
+
+  @media (max-width: 991px) {
+    height: 161.33vw;
+
+    .top-header {
+      display: none;
+    }
+    .navbar {
+      display: none;
+    }
+  }
+
+  @media (min-width: 991px) {
+    .mobile-menu_container {
+      display: none;
+    }
+  }
 }

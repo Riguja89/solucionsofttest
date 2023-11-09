@@ -1,0 +1,14 @@
+.copo {
+  width: 100vw;
+  height: 40vw;
+  background-repeat: repeat;
+  position: relative;
+  background-image: url("../../../../public/imagecopo.png");
+}
+
+.copo-small {
+  height: 21.36vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,6 +1,5 @@
 .our-services_container {
   margin-top: 7.87vw;
-
   h3 {
     color: #152e3d;
     font-family: Quicksand;
@@ -10,5 +9,11 @@
     line-height: normal;
     text-transform: capitalize;
     text-align: center;
+  }
+  @media (max-width: 991px) {
+    margin-top: 22.4vw;
+    h3 {
+      font-size: 7.46vw;
+    }
   }
 }

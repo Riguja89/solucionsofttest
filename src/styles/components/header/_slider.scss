@@ -3,6 +3,13 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 2.84vw;
+  text-align: center;
+  // z-index: 2;
+  .boton_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 21.33vw;
+  }
   h3 {
     height: 2.84vw;
     text-align: center;
@@ -85,6 +92,78 @@
       position: absolute;
       top: 29.1vw;
       left: 73.47vw;
+    }
+  }
+  @media (min-width: 991px) {
+    .whatsapp-button-c {
+      display: none;
+    }
+  }
+  @media (max-width: 991px) {
+    .copo {
+      display: none;
+    }
+    .slider-arrows {
+      display: none;
+    }
+    h3 {
+      font-size: 4.26vw;
+      height: 6.13vw;
+      letter-spacing: 0.68vw;
+      margin-top: 8vw;
+    }
+    h2 {
+      font-size: 14.66vw;
+      line-height: 18.66lvw; /* 127.273% */
+      letter-spacing: 0.3vw;
+      text-shadow: 0px 1.067vw 1.067vw rgba(0, 0, 0, 0.25);
+    }
+
+    .slider-collage {
+      .id {
+        display: none;
+      }
+      .camera {
+        width: 20vw;
+        position: absolute;
+        top: 120vw;
+        left: 3vw;
+        transform: rotate(9.39deg);
+      }
+      .keys {
+        height: 25vw;
+        position: absolute;
+        top: 145vw;
+        left: 8vw;
+      }
+      .hat {
+        width: 50vw;
+        position: absolute;
+        top: 124vw;
+        left: 25vw;
+      }
+      .pencil {
+        height: 15vw;
+        position: absolute;
+        top: 155vw;
+        left: 45.5vw;
+      }
+      .buffer {
+        width: 20vw;
+        position: absolute;
+        top: 123vw;
+        left: 73vw;
+        transform: scalex(-1) rotate(-9.39deg);
+      }
+      .layer {
+        width: 22vw;
+        position: absolute;
+        top: 148vw;
+        left: 72vw;
+      }
+      .map {
+        display: none;
+      }
     }
   }
 }

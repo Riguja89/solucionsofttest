@@ -1,36 +1,40 @@
 // abtracts
 
-@use './styles/abstracks/variables';
-@use './styles/abstracks/mixins';
-
+@use "./styles/abstracks/variables";
+@use "./styles/abstracks/mixins";
 
 // base
 
-@use './styles/base/base';
-@use './styles/base/resets';
+@use "./styles/base/base";
+@use "./styles/base/resets";
 
 // components
 
 //Header
-@use './styles/components/header/desktop-header';
-@use './styles/components/header/top-header';
-@use './styles/components/header/navbar';
-@use './styles/components/header/slider';
+@use "./styles/components/header/desktop-header";
+@use "./styles/components/header/top-header";
+@use "./styles/components/header/navbar";
+@use "./styles/components/header/slider";
+@use "./styles/components/header/mobile-menu";
 
 //Home
 
-@use './styles/components/home/our-services';
-@use './styles/components/home/services-menu';
-@use './styles/components/home/slide-service';
-@use './styles/components/home/our-team';
-@use './styles/components/home/team-description';
-@use './styles/components/home/team-list';
-@use './styles/components/home/our-clients';
-@use './styles/components/home/contact-us';
-@use './styles/components/home/contact-form';
-@use './styles/components/home/contact-figure';
+@use "./styles/components/home/our-services";
+@use "./styles/components/home/services-menu";
+@use "./styles/components/home/slide-service";
+@use "./styles/components/home/our-team";
+@use "./styles/components/home/team-description";
+@use "./styles/components/home/team-list";
+@use "./styles/components/home/our-clients";
+@use "./styles/components/home/contact-us";
+@use "./styles/components/home/contact-form";
+@use "./styles/components/home/contact-figure";
 
 // Footer
 
-@use './styles/components/footer/footer';
+@use "./styles/components/footer/footer";
 
+//Global
+
+@use "./styles/components/global/copos";
+@use "./styles/components/global/whatsapp-button";

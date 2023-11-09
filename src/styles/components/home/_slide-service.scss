@@ -3,12 +3,25 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .image-slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 1.65vw;
+    .screens {
+      @media (max-width: 991px) {
+        flex-direction: column;
+        text-align: center;
+        img {
+          width: 81.86vw;
+        }
+      }
+    }
     .imageslide {
       width: 33.135vw;
     }
@@ -17,6 +30,13 @@
     }
     .dots {
       text-align: center;
+    }
+    @media (max-width: 991px) {
+      .dots {
+        img {
+          width: 18.9vw;
+        }
+      }
     }
   }
   .info-slide {
@@ -68,6 +88,25 @@
           margin-left: 1.256vw;
         }
       }
+    }
+    @media (max-width: 991px) {
+      margin-top: 10vw;
+      padding: 0 0;
+      h3 {
+        font-size: 5.86vw;
+        margin: 0 0 0 8.53vw;
+      }
+      .text-contact{
+        p {
+          font-size: 16px;
+          line-height: 22px; /* 137.5% */
+          text-transform: capitalize;
+          width: 84.53vw;
+          padding: 0;
+          margin: 4.8vw 0 0 8.53vw;
+        }
+      }
+     
     }
   }
 

@@ -1,0 +1,20 @@
+.mobile-menu_container {
+    display: flex;
+    flex-direction: row;
+
+    .logo_container {
+        padding-top: 6.66vw;
+        margin-left: 12vw;
+        img {
+            width: 14.66vw;;
+        }
+    }
+
+    .burger_container {
+        padding-top: 4.8vw;
+        margin-left: 48vw;
+        img {
+            width: 15vw;
+        }
+    }
+}
