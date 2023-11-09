@@ -40,6 +40,7 @@
     }
   }
   .info-slide {
+    padding: 0 1.65vw;
     h3 {
       color: #152e3d;
       font-family: Quicksand;
@@ -96,21 +97,32 @@
         font-size: 5.86vw;
         margin: 0 0 0 8.53vw;
       }
-      .text-contact{
+      .text-contact {
+        
+       
         p {
-          font-size: 16px;
-          line-height: 22px; /* 137.5% */
+          font-size: 4.26vw;
+          line-height: 6vw; /* 137.5% */
           text-transform: capitalize;
           width: 84.53vw;
           padding: 0;
           margin: 4.8vw 0 0 8.53vw;
         }
+        .whatsapp-button {
+          width: 68.8vw;
+          height: 14.66vw;
+          border-radius: 2.13vw;
+          margin: 50px 15.6vw;
+          label {
+            font-size: 4.8vw;
+          }
+          img {
+            width: 7.466vw;
+            padding-top: 2.66vw;
+          }
+        }
       }
      
     }
-  }
-
-  .info-slide {
-    padding: 0 1.65vw;
   }
 }
