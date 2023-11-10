@@ -35,4 +35,28 @@
       text-align: center;
     }
   }
+  @media (max-width: 767px) {
+    margin-top: 21.3vw;
+    h3 {
+      font-size: 7.46vw;
+    }
+    .clients-logos {
+      display: block;
+      text-align: center;
+      .clients-logo_image {
+        img {
+          width: 92vw;
+          height: 15.46vw;
+        }
+      }
+    }
+    .separate {
+      margin-top: 10vw;
+      .line {
+        width: 82.13vw;
+        height: 0.533vw
+      }
+    }
+    
+  }
 }

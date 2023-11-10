@@ -34,9 +34,43 @@
       font-family: Quicksand;
       font-size: 1.587vw;
       font-style: normal;
-      font-weight: 600;    
+      font-weight: 600;
       line-height: normal;
       text-transform: capitalize;
+    }
+  }
+  @media (max-width: 767px) {
+    justify-content: space-around;
+    margin-top: 13.3vw;
+    .team-list_image {
+      margin-top: 13.3vw;
+      position: absolute;
+      top: 120vw;
+
+      img {
+        width: 38vw;
+        height: 38vw;
+        flex-shrink: 0;
+        overflow: hidden;
+      }
+    }
+    .image1 {
+      left: 0vw;
+    }
+    .image2 {
+      right: 0vw;
+      overflow: hidden;
+    }
+    .roll-list {
+      width: 100vw;
+      li {
+        font-size: 4.8vw;
+        line-height: 8vw; /* 166.667% */
+      }
+      p {
+        padding-top: 3vw;
+        font-size: 5.866vw;
+      }
     }
   }
 }

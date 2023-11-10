@@ -6,7 +6,7 @@
 
   .menu-item {
     padding: 0 3.04vw 0.66vw;
-    border-bottom: solid 0.13vw #58B59F;
+    border-bottom: solid 0.13vw #58b59f;
     .menu-image {
       height: 3.24vw;
       align-items: center;
@@ -14,7 +14,6 @@
       img {
         height: 3.24vw;
       }
-     
     }
     p {
       color: rgba(114, 114, 114, 0.8);
@@ -26,6 +25,24 @@
       text-transform: capitalize;
       text-align: center;
       margin-top: 0.96vw;
+    }
+  }
+  @media (max-width: 767px) {
+    margin-top: 8vw;
+    .menu-item {
+      padding: 0 5vw 2vw;
+      border-bottom: solid 0.13vw #58b59f;
+      .menu-image {
+        display: none;
+      }
+      
+      p {
+        font-size: 14px;
+        margin-top: 0.96vw;
+      }
+    }
+    .delete-in-mobile {
+      display: none;
     }
   }
 }

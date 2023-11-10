@@ -1,7 +1,11 @@
 .contact-us_container {
-    margin-top: 3.307vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+  margin-top: 3.307vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media (max-width: 767px) {
+    margin-top: 8.8vw;
+    display: block;
+    text-align: center;
+  }
 }

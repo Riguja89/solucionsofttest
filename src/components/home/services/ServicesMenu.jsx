@@ -9,11 +9,13 @@ const menu = [
   { svg: "menu/socialmedia.svg", label: "Social Media" },
 ];
 
+const clase="delete-in-mobile"
+
 const ServicesMenu = () => {
   return (
     <div className="services-menu_container">
       {menu.map((m, i) => (
-        <div className="menu-item" key={i}>
+        <div className={i>3?clase+" menu-item":" menu-item"} key={i} >
           <div className="menu-image">
             <img src={m.svg} alt="imagen del item menú" />
           </div>

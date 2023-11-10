@@ -1,11 +1,13 @@
 .contact-figure_container {
   margin: 0 0 0 3.5vw;
+
   .eart-image {
     width: 23.15vw;
-    height:  23.15vw;
+    height: 23.15vw;
     flex-shrink: 0;
     margin-top: -0.661vw;
   }
+
   .id-image {
     display: flex;
     width: 17.13vw;
@@ -14,5 +16,21 @@
     flex-shrink: 0;
     margin-top: -18.51vw;
     margin-left: 9.92vw;
+  }
+
+  @media (max-width: 767px) {
+    margin: 0;
+    margin-top: -10vw;
+
+    .eart-image {
+      width: 54.93vw;
+      height: 54.93vw;
+    }
+
+    .id-image {
+      width: 40.533vw;
+      margin-top: -44vw;
+      margin-left: 47vw;
+    }
   }
 }

@@ -4,10 +4,10 @@ const NavBar=()=>{
 return(
     <div className="navbar">
         <ul className="navbar_items">
-            <li>Nuestros Servicios</li>
-            <li>Proyectos</li>
-            <li>Equipo</li>
-            <li>Contactanos</li>
+            <a href="#our-services" >Nuestros Servicios</a>
+            <a href="#our-services">Proyectos</a>
+            <a href="#our-team">Equipo</a>
+            <a href="#contactus">Contactanos</a>
         </ul>
     </div>
 )

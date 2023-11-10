@@ -6,7 +6,7 @@
   .team-description_image {
     img {
       width: 25.179vw;
-      height:  25.179vw;
+      height: 25.179vw;
       transform: rotate(22.34deg);
       flex-shrink: 0;
     }
@@ -32,6 +32,32 @@
       font-style: normal;
       font-weight: 400;
       line-height: 1.455; /* 137.5% */
+    }
+  }
+  @media (max-width: 767px) {
+    justify-content: space-around;
+    .team-description_image {
+      margin-top: 16vw;
+      margin-left: -10vw;
+      img {
+        width: 65vw;
+        height: 65vw;
+      }
+    }
+    .team-description_text {
+      margin-top: 13.33vw;
+      h3 {
+        width: 57.33vw;
+        font-size: 5.86vw;
+        font-weight: 600;
+        margin-left: -7vw;
+      }
+      p {
+        width: 55.73vw;
+        font-size: 4.26vw;
+        font-weight: 400;
+        margin-left: -7vw;
+      }
     }
   }
 }

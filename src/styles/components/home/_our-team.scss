@@ -1,8 +1,15 @@
 .our-team_container {
-    background: linear-gradient(90deg, #152E3D 0.02%, #3C8171 99.98%);
-    height: 21.36vw;
-    margin-top: 4.76vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  background: linear-gradient(90deg, #152e3d 0.02%, #3c8171 99.98%);
+  height: 21.36vw;
+  margin-top: 4.76vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media (max-width: 767px) {
+    height: 160.533vw;
+    margin-top: 0vw;
+    .copo {
+      display: block;
+    }
+  }
 }

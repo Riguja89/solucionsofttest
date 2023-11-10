@@ -4,7 +4,7 @@ import ContactFigure from "./ContactFigure";
 
 const ContactUs = () => {
   return (
-    <div className="contact-us_container">
+    <div className="contact-us_container" id="contactus">
       <ContactForm />
       <ContactFigure/>
     </div>

@@ -6,12 +6,13 @@ const Slider = () => {
     <div className="slider-container">
       <h3>WEBSITE - APPS - BRANDING</h3>
       <h2>Creativity</h2>
-      <div className="boton_container">
-        <WhatsappButton />
-      </div>
+     
       <div className="slider-arrows">
         <img src="arrow-left.svg" alt="" />
         <img src="arrow-right.svg" alt="" />
+      </div>
+      <div className="boton_container">
+        <WhatsappButton />
       </div>
       <div className="slider-collage">
         <img className="id" src="id3d.png" alt="" />
