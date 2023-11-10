@@ -1,4 +1,7 @@
 import React from "react";
+import ReactWhatsapp from "react-whatsapp";
+
+const data = require("../../../assets/strings.json");
 
 const SlideService = () => {
   return (
@@ -18,21 +21,18 @@ const SlideService = () => {
       <div className="info-slide">
         <h3>Website</h3>
         <div className="text-contact">
-          <p>
-            Construimos proyectos web que marcan la diferencia y garantizan la
-            experiencia de usuario, navegabilidad, accesibilidad, diseño
-            responsive y optimización en buscadores.
-          </p>
+          <p>{data["firstp-website"]}</p>
           <br />
-          <p>
-            Nuestros conocimientos se adaptan a los cambios tecnológicos,
-            aplicando las últimas tendencias al desarrollo web, como HTML5,
-            CSS3, JavaScript, diseño responsive, https.
-          </p>
-          <div className="whatsapp-button">
-            <label>Contáctanos</label>
-            <img src="whatsapp-logo.png" alt="" />
-          </div>
+          <p>{data["secondp-website"]}</p>
+          <ReactWhatsapp
+            number={data["whatsapp-number"]}
+            message={data["whatsapp-mesage"]}
+          >
+            <div className="whatsapp-button">
+              <label>Contáctanos</label>
+              <img src="whatsapp-logo.png" alt="" />
+            </div>
+          </ReactWhatsapp>
         </div>
       </div>
     </div>

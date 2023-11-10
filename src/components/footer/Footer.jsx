@@ -1,4 +1,7 @@
 import React from "react";
+import ReactWhatsapp from "react-whatsapp";
+
+const data = require("../../assets/strings.json");
 
 const Footer = () => {
   return (
@@ -19,7 +22,12 @@ const Footer = () => {
         <p>(057) 301 234 81 30 &nbsp;&nbsp;&nbsp;&nbsp; (057) 300 631 59 63</p>
       </div>
       <div className="footer-whatsapp-logo">
-        <img src="whatsapp-logo2.png" alt="" />
+        <ReactWhatsapp
+          number={data["whatsapp-number"]}
+          message={data["whatsapp-mesage"]}
+        >
+          <img src="whatsapp-logo2.png" alt="" />
+        </ReactWhatsapp>
       </div>
     </div>
   );

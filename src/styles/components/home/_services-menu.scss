@@ -27,6 +27,17 @@
       margin-top: 0.96vw;
     }
   }
+  .selected {
+    border-bottom: solid 0.5vw #58b59f;
+    .menu-image {
+      img {
+        color: #58b59f;
+      }
+    }
+    p {
+      color: #58b59f;
+    }
+  }
   @media (max-width: 767px) {
     margin-top: 8vw;
     .menu-item {
@@ -35,11 +46,14 @@
       .menu-image {
         display: none;
       }
-      
+
       p {
         font-size: 14px;
         margin-top: 0.96vw;
       }
+    }
+    .selected {
+      border-bottom: solid 1vw #58b59f;
     }
     .delete-in-mobile {
       display: none;

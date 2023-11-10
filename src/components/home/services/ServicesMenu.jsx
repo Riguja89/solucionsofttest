@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const menu = [
   { svg: "menu/web.svg", label: "Website" },
@@ -9,13 +9,22 @@ const menu = [
   { svg: "menu/socialmedia.svg", label: "Social Media" },
 ];
 
-const clase="delete-in-mobile"
+const clase = "delete-in-mobile";
 
 const ServicesMenu = () => {
+  const [select, setSelect] = useState(1);
+
   return (
     <div className="services-menu_container">
       {menu.map((m, i) => (
-        <div className={i>3?clase+" menu-item":" menu-item"} key={i} >
+        <div
+          className={
+            (i > 3 ? clase + " menu-item" : " menu-item") +
+            (select === i ? " selected" : "")
+          }
+          key={i}
+          onClick={() => setSelect(i)}
+        >
           <div className="menu-image">
             <img src={m.svg} alt="imagen del item menú" />
           </div>

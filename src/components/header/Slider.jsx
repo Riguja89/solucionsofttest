@@ -1,18 +1,26 @@
 import React from "react";
 import WhatsappButton from "../global/whatsappButton";
+import ReactWhatsapp from "react-whatsapp";
+
+const data = require("../../assets/strings.json");
 
 const Slider = () => {
   return (
     <div className="slider-container">
       <h3>WEBSITE - APPS - BRANDING</h3>
       <h2>Creativity</h2>
-     
+
       <div className="slider-arrows">
         <img src="arrow-left.svg" alt="" />
         <img src="arrow-right.svg" alt="" />
       </div>
       <div className="boton_container">
-        <WhatsappButton />
+        <ReactWhatsapp
+          number={data["whatsapp-number"]}
+          message={data["whatsapp-mesage"]}
+        >
+          <WhatsappButton />
+        </ReactWhatsapp>
       </div>
       <div className="slider-collage">
         <img className="id" src="id3d.png" alt="" />

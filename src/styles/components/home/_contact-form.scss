@@ -33,6 +33,8 @@
     font-weight: 500;
     line-height: 1.455vw;
     padding-top: 0.6vw;
+    outline-color: gray;
+    outline-width: 0.03vw;
   }
 
   textarea {
@@ -42,6 +44,13 @@
     border-radius: 0.264vw;
     border: 0.066vw solid #c8c8c8;
     background: #fff;
+    outline-color: gray;
+    outline-width: 0.03vw;
+    font-family: Quicksand;
+    font-size: 0.96vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.455vw;
   }
   .submit {
     margin-top: 2.18vw;
@@ -99,6 +108,8 @@
       textarea {
         width: 84.26vw;
         height: 27.2vw;
+        font-size: 3.733vw;
+        line-height: 5.86vw;
       }
       .name-section {
         margin: 0;
